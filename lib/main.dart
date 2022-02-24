@@ -54,14 +54,12 @@ class _MyHomePageState extends State<MyHomePage> {
   void _incrementCounter() {
     setState(() {
       _counter++;
-      if (_counter>10) {
-        _counter = 0;
-      }
-
-      _text = "Ganjil";
+      _text = "Genap ";
       for (int i = 0; i <= _counter; i++) {
-        if (i % 2 != 0){
-          _text += '${i}, ';
+        if (i % 2 == 0){
+          if (i % 3 == 0) {
+            _text += '${i}, ';
+          }
         }
       }
     });

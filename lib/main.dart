@@ -98,11 +98,11 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               _text,
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headline5,
             ),
             Text(
               _text2,
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headline5,
             ),
           ],
         ),
